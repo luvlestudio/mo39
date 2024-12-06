@@ -16,7 +16,7 @@
   <meta property="og:url" content="https://mo39.luvle.co.kr" />
   <meta property="og:title" content="임상호 ♥ 조다정의 결혼식에 초대합니다." />
   <meta property="og:description" content="2025년 3월 29일 토요일♡" />
-  <meta property="og:image" content="https://i.imgur.com/YYa2q8B.png" />
+  <meta property="og:image" content="https://i.imgur.com/jaZn80y.png" />
   <meta property="og:site_name" content="임상호 ♥ 조다정의 결혼식에 초대합니다." />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -91,14 +91,15 @@
             <div id="weddingDesc">
               <div style="line-height: 40px;">
                 <p id="parentInfo">
-                  <span style="font-size: large">한영석 · 정보결</span>
+                  <span style="font-size: large; display: inline-flex; align-items: center;"><img
+                    src="img/flower_image.png" style="width: 18px; height: 20px">임문수 · 전경옥</span>
                   <span>
                     <span>의</span>
                     <span style="
                           font-size: large;
                           min-width: 3rem;
                           display: inline-block;
-                        ">장남</span>
+                        ">아들</span>
                   </span>
                   <span style="font-size: large">임상호</span>
                   <span style="
@@ -115,20 +116,20 @@
                     document
                       .getElementById("man-call-button")
                       .addEventListener("click", function () {
-                        var phoneNumber = "010-5213-8184";
+                        var phoneNumber = "010-3796-9267";
                         window.location.href = "tel:" + phoneNumber;
                       });
                   </script>
                 </p>
                 <p id="parentInfo">
-                  <span style="font-size: large">김정민 · 김선명</span>
+                  <span style="font-size: large">조근행 · 김현숙</span>
                   <span>
                     <span>의</span>
                     <span style="
                           font-size: large;
                           min-width: 3rem;
                           display: inline-block;
-                        ">차녀</span>
+                        ">딸</span>
                   </span>
                   <span style="font-size: large">조다정</span>
                   <span style="
@@ -145,7 +146,7 @@
                     document
                       .getElementById("woman-call-button")
                       .addEventListener("click", function () {
-                        var phoneNumber = "010-3026-0667";
+                        var phoneNumber = "010-5456-8116";
                         window.location.href = "tel:" + phoneNumber;
                       });
                   </script>
@@ -260,9 +261,9 @@
                     text-align: center;
                     line-height: 1.5rem;
                   ">
-                <p>경기 용인시 기흥구 흥덕1로 13 2층</p>
+                <p>서울 영등포구 도영로22길 22</p>
                 <p style="font-weight: 600; color: #000000">
-                  IT컨벤션웨딩 아모르홀
+                  도림동 성당
                 </p>
               </div>
               <div class="weddinghall-call-info">
@@ -291,8 +292,8 @@
             var mapContainer = document.getElementById("map"), // 지도를 표시할 div
               mapOption = {
                 center: new kakao.maps.LatLng(
-                  37.270883833505124,
-                  127.06624392988631
+                  37.510567065616854,
+                  126.90139175593943
                 ), // 지도의 중심좌표
                 level: 3, // 지도의 확대 레벨
               };
@@ -312,8 +313,8 @@
 
             // 마커가 표시될 위치입니다
             var markerPosition = new kakao.maps.LatLng(
-              37.270883833505124,
-              127.06624392988631
+              37.510567065616854,
+              126.90139175593943
             );
 
             // 마커를 생성합니다
@@ -331,7 +332,7 @@
         <div class="animate-on-scroll" id="MapIconDiv" style="background-color: #F1CBD2
         ;">
           <div>
-            <a class="maplink" href="https://kko.kakao.com/OifKuA-I6F">
+            <a class="maplink" href="https://kko.kakao.com/IuHuiL0QRZ">
               <div>
                 <button id="kakaoMapButton" type="button">
                   <!-- <img
@@ -389,11 +390,10 @@
               <div class="arrow"></div>
             </button>
             <div class="panel">
-              <div style="text-align: left;">
+              <div style="text-align: center;">
               <ul>
-                <li><strong>신랑 임상호 : </strong>신한은행 110264733580</li>
-                <li><strong>혼주 한영석 : </strong>농협은행 50105252030265</li>
-                <li><strong>혼주 정보결 : </strong>농협은행 50101552068021</li>
+                <li><strong>신랑 임상호 : </strong>우리은행 1002-146-731997</li>
+                <li><strong>혼주 전경옥 : </strong>우리은행 1002-153-208630</li>
         
               </ul>
             </div>
@@ -404,11 +404,10 @@
               <div class="arrow"></div>
             </button>
             <div class="panel">
-              <div style="text-align: left;">
+              <div style="text-align:center;">
               <ul>
-                <li><strong>신부 조다정 : </strong>신한은행 110329455542</li>
-                <li><strong>혼주 김정민 : </strong>하나은행 11513016575</li>
-                <li><strong>혼주 김선명 : </strong>신한은행 110004724312</li>
+                <li><strong>신부 조다정 : </strong>농협은행 302-1489-2141-91</li>
+                <li><strong>혼주 조근행 : </strong>농협은행 221043-52-005871</li>
 
 
 
@@ -433,7 +432,7 @@
                   this.classList.toggle("active");
                   var panel = this.nextElementSibling;
                   if (this.classList.contains("active")) {
-                    panel.style.height = "15rem";
+                    panel.style.height = "13rem";
                     panel.style.padding = "5%";
                   } else {
                     panel.style.height = "0rem";
